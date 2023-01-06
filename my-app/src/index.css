@@ -1,1 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html { 
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 1vh auto auto;
+  width: 80%;
+  font-family: "Karla", sans-serif;;
+}
+
+header {
+  margin: auto;
+  width: 34.38em;
+  height: 4.06em;
+  color:#FFFFFF;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:linear-gradient(to left top,#A626D3,  #672280);
+}
+
+.header-title{
+  width: 11.19rem;
+  height: 1.63rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.meme-icon {
+  width: 1.94rem;
+}
+.meme-text {
+  width: 8.81rem;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+
+.header-text {
+  width: 11.81rem;
+  height: 0.88rem;
+  font-size: 0.75rem;
+}
