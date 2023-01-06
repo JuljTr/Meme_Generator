@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 1vh auto auto;
-  width: 80%;
+  width: 34.38em;
   font-family: "Karla", sans-serif;;
 }
 
@@ -47,4 +47,25 @@ header {
   width: 11.81rem;
   height: 0.88rem;
   font-size: 0.75rem;
+}
+
+.form {
+  margin: 36px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input{
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-button{
+  grid-column: 1/-1;
+  border-radius: 5px;
+  background:linear-gradient(to left top,#A626D3,  #672280);
+  color: #FFFFFF;
+  cursor: pointer;
 }
