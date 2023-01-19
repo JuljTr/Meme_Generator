@@ -69,3 +69,7 @@ header {
   color: #FFFFFF;
   cursor: pointer;
 }
+
+.meme-image {
+  width: 100%;
+}
